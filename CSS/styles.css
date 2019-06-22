@@ -165,7 +165,7 @@ a:hover {
   padding: 20px 0;
 }
 
-@media (min-width: 500px){
+@media (max-width: 1024px){
 
   .intro{
     width: 60%;
