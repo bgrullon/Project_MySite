@@ -23,7 +23,8 @@ h1 {
   position: relative;
   top: 100px;
   font-family: 'Calligraffitti', cursive;
-  color: #5893d4;
+  color: #cef9e2;
+  text-shadow: -3px 3px black;
 }
 
 h2 {
@@ -38,7 +39,7 @@ h3 {
 }
 
 hr {
-  border: dotted #f0ece2 6px;
+  border: dotted black 6px;
   border-bottom: none;
   width: 4%;
   margin: 100px auto 100px auto;
@@ -46,6 +47,11 @@ hr {
 
 p {
   line-height: 2;
+}
+
+li {
+  display: inline-block;
+  padding: 5px 16px;
 }
 
 a {
@@ -56,7 +62,7 @@ a {
 }
 
 a:hover {
-  color: white;
+  color: black;
 }
 
 /* classes */
@@ -66,14 +72,25 @@ a:hover {
   position: relative;
   top: 24px;
   font-family: 'Cinzel', serif;
-  color: #5893d4;
+  color: #cef9e2;
   font-weight: normal;
+  text-shadow: -2px 2px black;
 }
 
 .top-con {
   background-color: #cef9e2;
-  position: relative;
-  padding-top: 50px;
+  background: url('../images/headerBackImage.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 5px #acdbdf;
+  border-style: solid;
+}
+
+.nav-bar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: right;
 }
 
 .intro {
@@ -81,19 +98,8 @@ a:hover {
   width: 30%;
 }
 
-.bottom-cloud {
-  position: absolute;
-  left: 10px;
-}
-
-.top-cloud {
-  position: absolute;
-  top: 0;
-  margin: 0;
-}
-
 .middle-container {
-  margin: 100px 0;
+  margin: 50px 0;
 }
 
 .skill-row {

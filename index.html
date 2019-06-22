@@ -9,50 +9,64 @@
   </head>
   <body>
 
-<!-- DIV allows you to divide and organize page with css (content division element)-->
-<div class= "top-con">
-  <img class="top-cloud"  src="images/cloud.png" alt="Cloud">
+<!-- Top Container-->
+<div id="pageTop" class= "top-con">
   <h1>I'm Benny</h1>
   <p class="under-title">a programmer</p>
-  <img class="bottom-cloud" src="images/cloud.png" alt="Cloud">
-  <img src="images/moutain.png" alt="Moutain">
 </div>
 
+<!-- Nav Bar -->
+<div>
+  <ul class="nav-bar">
+    <li><a href="#ITA">ITA Homework</a></li>
+    <li><a href="#myProjects">My Projects</a></li>
+    <li><a href="#contactMe">Contact Me</a></li>
+  </ul>
+</div>
+<!-- Middle Container-->
 <div class="middle-container">
   <div class="profile">
 <iframe src="https://giphy.com/embed/z8OcWLLk4SrpS" width="280" height="280" frameBorder="0" allowFullScreen style="pointer-events: none;"></iframe>
     <h2>Welcome.</h2>
     <p class="intro">This site is my first project, of many, as I head down the path of becoming a Web Developer.</p>
   </div>
+
   <hr>
+
   <div class="skills">
-    <h2>My Skills.</h2>
+    <h2>Current Projects</h2>
     <div class="skill-row">
       <iframe class="skill-image-one" src="https://giphy.com/embed/2A59ZnpJGFTiiW7sg9" width="480" height="140" frameBorder="0" allowFullScreen style="pointer-events: none;"></iframe><p>
-      <h3>Websites</h3>
-      <p>This is my first of <b>many</b> new sites to come. This site I will keep upto date with all my latest developents and trends.  </p>
+      <h3 id="ITA">ITA Homework</h3>
+      <p>List of current completed Assignments:</p>
+      <ul>
+        <li><a href="weekOne.html">Week one</a></li>
+      </ul>
     </div>
+
     <div class="skill-row">
       <iframe class="skill-image-two" src="https://giphy.com/embed/MyibCKeY7w2TS" width="380" height="259" frameBorder="0" allowFullScreen style="pointer-events: none;"></iframe>
-      <h3>Javascript</h3>
-      <p>My main inspiration is coding. I plan to showcase all my experience with coding right here. Programming has always been my passion and although I am not a programmer by profession, I plan to showcase my journey till I am.</p>
+      <h3 id="myProjects">My Projects</h3>
+      <p> Soon </p>
     </div>
   </div>
+
   <hr>
+<!-- Contact Me information-->
   <div class="contact-me">
     <h2>Get In Touch</h2>
-    <h3>If you want to Chat or Collab.</h3>
-    <p>I'm still in the early stages of becoming a Web Developer but I am always looking for challenges. Either from scratch or to revamp, lets code!</p>
+    <h3 id="contactMe">If you want to Chat or Collab.</h3>
     <a class="btn" href="mailto:benny.skates@gmail.com">CONTACT ME</a>
   </div>
 </div>
 
-
+<!-- Bottom Container-->
 <div class="bottom-container">
   <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
   <a class="footer-link" href="https://twitter.com/">Twitter</a>
-  <a class="footer-link" href="https://www.google.com">Website</a>
+  <a class="footer-link" href="https://www.instagram.com">Instagram</a>
   <p class="copyright">© 2019 Benny Grullon.</p>
+  <a href="#pageTop">Back to top</a>
 </div>
 
 
