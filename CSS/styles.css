@@ -17,6 +17,11 @@ body {
   font-family: 'Merriweather', serif;
 }
 
+li {
+  display: inline-block;
+  padding: 5px 16px;
+}
+
 h1 {
   font-size: 5rem;
   margin-top: 0;
@@ -47,11 +52,6 @@ hr {
 
 p {
   line-height: 2;
-}
-
-li {
-  display: inline-block;
-  padding: 5px 16px;
 }
 
 a {
@@ -163,4 +163,22 @@ a:hover {
 .copyright {
   color: #010101;
   padding: 20px 0;
+}
+
+@media (min-width: 500px){
+
+  .intro{
+    width: 60%;
+    font-size: 1.5em;
+  }
+  .skill-row {
+    width: 60%;
+    font-size: 1.5em;
+  }
+  .footer-link {
+    font-size: 2em;
+  }
+  .contact-me {
+    font-size: 1.5em;
+  }
 }
