@@ -165,6 +165,53 @@ a:hover {
   padding: 20px 0;
 }
 
+/* WEEK ONE ASSIGNMENTS in weekOne.html */
+
+
+.toy-problems {
+  background-image: linear-gradient(black, #681313, #9c2c2c);
+  border: 5px #acdbdf;
+  border-style: solid;
+  margin: 50px 250px;
+  padding: 10px 15px;
+  color: white;
+  text-align: left;
+}
+.toy-problems li {
+  list-style-position: outside;
+  display: list-item;
+}
+
+
+.red {color: red;}
+.orange {color: orange;}
+.yellow {color: yellow;}
+.green {color: green;}
+.blue {color: blue;}
+.indigo {color: indigo;}
+.violet {color: violet;}
+
+.side-bar {
+  position: fixed;
+  left: 0;
+  z-index: 1;
+  top: 0;
+  height: 100%;
+  margin: 0;
+  padding-left: 0;
+  background-color: white;
+  border: 5px #acdbdf;
+  border-style: solid;
+}
+
+.side-bar a {
+  display: block;
+}
+
+
+
+/* MEDIA QUERIES */
+
 @media (max-width: 1024px){
 
   .intro{
