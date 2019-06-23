@@ -54,28 +54,28 @@
             <label for="lastName">Last Name:</label>
             <input id="lastName" type="text" name="lastName" placeholder="" class="">
 
-            <input type="radio" name="gender" value="male"> Male </>
-            <input type="radio" name="gender" value="female"> Female </>
+            <input id="male" type="radio" name="gender" value="male"> Male </>
+            <input id="female" type="radio" name="gender" value="female"> Female </>
 
             <p>Favorite Esport:
-            <select>
+            <select id="esport">
               <option value="blank"></option>
-              <option value="lol">League of Legends</option>
-              <option value="fortnite">Fortnite</option>
-              <option value="cod">Call of Duty</option>
-              <option value="sfv">Street Fighter V</option>
-              <option value="overwatch">Overwatch</option>
+              <option value="League of legends">League of Legends</option>
+              <option value="Fortnite">Fortnite</option>
+              <option value="Call of Duty">Call of Duty</option>
+              <option value="Street Fighter V">Street Fighter V</option>
+              <option value="Overwatch">Overwatch</option>
             </select></p>
 
             <p> Favorite Pizza Toppings:
-              <input type="checkbox" name="pizza" value="Cheese">Cheese</>
-              <input type="checkbox" name="pizza" value="Pineapple">Pineapple</>
-              <input type="checkbox" name="pizza" value="Onions">Onion</>
-              <input type="checkbox" name="pizza" value="Chicken">Chicken</>
-              <input type="checkbox" name="pizza" value="Ham">Ham</>
+              <input id="1" type="checkbox" name="pizza" value="Cheese">Cheese</>
+              <input id="2" type="checkbox" name="pizza" value="Pineapple">Pineapple</>
+              <input id="3" type="checkbox" name="pizza" value="Onions">Onion</>
+              <input id="4" type="checkbox" name="pizza" value="Chicken">Chicken</>
+              <input id="5" type="checkbox" name="pizza" value="Ham">Ham</>
             </p>
 
-            <input type="submit" value="Save" id="Save" onclick="return controller.addRow()">
+            <input type="submit" value="Save" id="Save" onclick="return getInput()">
         </form>
     </div>
       <!-- Toy Problem Three -->
@@ -88,6 +88,6 @@
         <a href="index.html#contactMe">Contact Info</a>
       </div>
 
-
+    <script src="index.js" charset="utf-8"></script>
   </body>
 </html>
